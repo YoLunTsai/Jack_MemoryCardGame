@@ -139,7 +139,7 @@ footer {
 
 @media screen and (max-width:600px) {
     .container {
-        width: 700px;
+        width: 600px;
         margin: auto;
     }
 
