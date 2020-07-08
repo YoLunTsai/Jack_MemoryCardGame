@@ -76,8 +76,6 @@ h1 {
     height: 216px;
     margin: 10px;
     position: relative;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
     -webkit-perspective: 1000px;
     perspective: 1000px;
     cursor: pointer;
@@ -91,6 +89,9 @@ h1 {
     border-radius: 15px;
     -webkit-box-shadow: 5px 5px 5px rgba(102, 100, 100, 0.3);
     box-shadow: 5px 5px 5px rgba(102, 100, 100, 0.3);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -o-transition: transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out;
