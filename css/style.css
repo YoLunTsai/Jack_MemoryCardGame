@@ -124,3 +124,27 @@ footer {
     font-size: 14px;
     text-align: center;
 }
+
+@media screen and (max-width:991.5px) {
+    .container {
+        width: 1000px;
+        margin: auto;
+    }
+
+    .card {
+        width: 187.2px;
+        height: 172.8px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 800px;
+        margin: auto;
+    }
+
+    .card {
+        width: 149.6px;
+        height: 138.24px;
+    }
+}
