@@ -139,12 +139,12 @@ footer {
 
 @media screen and (max-width:600px) {
     .container {
-        width: 760px;
+        width: 700px;
         margin: auto;
     }
 
     .card {
-        width: 149.6px;
-        height: 138.24px;
+        width: 119.68px;
+        height: 110.592px;
     }
 }
