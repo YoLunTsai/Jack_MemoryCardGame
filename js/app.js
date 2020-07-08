@@ -9,7 +9,7 @@ var firstCard, secondCard;
 var count = 0; //配對成功次數，用於判斷遊戲是否已經完成。
 
 function game_start() { //點按鈕開始遊戲
-    document.getElementById("game_text").style.display = "none";//隱藏遊戲完成的文字
+    document.getElementById("game_text").style.display = "none"; //隱藏遊戲完成的文字
     if (game_status == false) {
         //洗牌
         allCards.forEach(Cards => {

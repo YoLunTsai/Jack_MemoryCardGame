@@ -58,12 +58,11 @@ h1 {
 #game_text {
     padding-top: 1rem;
     font-weight: bold;
-    text-align: center;
     font-size: 2rem;
     color: #f53434;
 }
 
-.Game-content {
+.Game_content {
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
