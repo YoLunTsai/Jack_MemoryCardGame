@@ -76,7 +76,8 @@ h1 {
     height: 216px;
     margin: 10px;
     position: relative;
-    transform: perspective(1000);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
     -webkit-perspective: 1000px;
     perspective: 1000px;
     cursor: pointer;
@@ -109,13 +110,11 @@ h1 {
 .back {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    z-index: 1;
 }
 
 .back.after {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    z-index: 1;
 }
 
 footer {
